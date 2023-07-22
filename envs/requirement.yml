@@ -216,7 +216,6 @@ dependencies:
   - pytest-remotedata=0.3.1=py36_0
   - python=3.6.8=h0371630_0
   - python-dateutil=2.8.0=py36_0
-  - pytorch=1.1.0=py3.6_cuda9.0.176_cudnn7.5.1_0
   - pytz=2018.9=py36_0
   - pywavelets=1.0.2=py36hdd07704_0
   - pyyaml=5.1=py36h7b6447c_0
@@ -262,7 +261,6 @@ dependencies:
   - testpath=0.4.2=py36_0
   - tk=8.6.8=hbc83047_0
   - toolz=0.9.0=py36_0
-  - torchvision=0.3.0=py36_cu9.0.176_1
   - tornado=6.0.2=py36h7b6447c_0
   - tqdm=4.32.2=py_0
   - traitlets=4.3.2=py36h674d592_0
@@ -288,6 +286,8 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.3.7=h0b5b093_0
   - pip:
+    - torch==1.1.0
+    - torchvision==0.3.0
     - argcomplete==1.10.0
     - colour-demosaicing==0.1.5
     - colour-science==0.3.15
